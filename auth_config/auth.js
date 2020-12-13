@@ -29,7 +29,7 @@ module.exports = {
                     next();
                 }
                 else {
-                    console.log(user);
+                    // console.log(user);
                     req.user = user;
                     res.redirect('/');
                 }
